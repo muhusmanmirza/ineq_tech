@@ -1,0 +1,10 @@
+parnames = {7:'rho', 8:'s'}
+unames = {1:'x', 2:'a'}
+NDIM=   2, IPS =   1, IRS =   0, ILP =   1
+ICP =  ['rho', 's']
+NTST=   5, NCOL=   4, IAD =   3, ISP =   2, ISW = 2, IPLT= 0, NBC= 0, NINT= 0
+NMX=  1500, NPR=   100, MXBF=   0, IID =   2, ITMX= 8, ITNW= 5, NWTN= 3, JAC= 0
+EPSL= 1e-06, EPSU = 1e-06, EPSS =0.0001
+DS  =  1, DSMIN= 0.01, DSMAX= 2, IADS=   1
+NPAR = 9, THL =  {}, THU =  {}
+UZSTOP = {'rho': [0., 1.0], 's': [0., 1.0]}
